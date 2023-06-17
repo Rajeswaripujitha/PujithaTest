@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/admission-form/static/css/main.6592904d.css",
+    "main.js": "/admission-form/static/js/main.c72fbfa0.js",
+    "static/js/787.0d3d0d10.chunk.js": "/admission-form/static/js/787.0d3d0d10.chunk.js",
+    "index.html": "/admission-form/index.html",
+    "main.6592904d.css.map": "/admission-form/static/css/main.6592904d.css.map",
+    "main.c72fbfa0.js.map": "/admission-form/static/js/main.c72fbfa0.js.map",
+    "787.0d3d0d10.chunk.js.map": "/admission-form/static/js/787.0d3d0d10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6592904d.css",
+    "static/js/main.c72fbfa0.js"
+  ]
+}
