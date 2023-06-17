@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: blanchedalmond;
+        }
+        form{
+            background-color:beige ;
+            text-align: center;
+        }
+        input{
+            width:20%;
+            padding:12px 20px;
+            margin:8px 0;
+            box-sizing:border-box;
+            border-radius: 4px;
+        }
+        input:focus{
+            background-color: lightblue;
+        }
+        input[type=button]{
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+table{
+    width:100%;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <form>
+        <h1>Calculate your Body-Mass-Index</h1>
+        <label for="weight"><b>Enter your weight:</b></label><br>
+         <input type="text" id="weight" name="weight" placeholder="in Kilograms" required><br>
+        <label for="height"><b>Enter your height:</b></label><br>
+         <input type="text" id="height" name="height" placeholder="in meters" required><br><br>
+         <input type="button" value="Calculate" onclick=calculate()>
+    </form>
+    <h2 id="result">Your result is : </h2>
+    <br>
+    <h1>Check your category</h1>
+    <table border="2">
+        <th><b>BMI</b></th>
+        <th><b>BMI Category</b></th>
+        <tr >
+            <td>Less than 15</td>
+            <td style="background-color: red;">Very severely underweight</td>
+        </tr>
+        <tr>
+            <td>Between 15 and 16	</td>
+            <td style="background-color:orange;">Severely underweight</td>
+        </tr>
+        <tr>
+            <td>Between 16 and 18.5	</td>
+            <td style="background-color:orange;">Underweight</td>
+        </tr>
+        <tr>
+            <td>Between 18.5 and 25</td>
+            <td style="background-color:greenyellow;">Normal(Healthy weight)</td>
+        </tr>
+        <tr>
+            <td>Between 25 and 35</td>
+            <td style="background-color:orange;">Overweight</td>
+        </tr>
+        <tr>
+            <td>Between 35 and 40</td>
+            <td style="background-color: red;">Severely Obese</td>
+        </tr>
+        <tr>
+            <td>Over 40</td>
+            <td style="background-color: red;">Very severely obese</td>
+        </tr>
+    </table>
+</body>
+</html>
